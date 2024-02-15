@@ -30,6 +30,7 @@ header p{
     color: #03c703c9;
     margin: 0 1em;
     line-height: 1.5;
+    letter-spacing: 1px;
 }
 
 .container{
@@ -63,13 +64,14 @@ header p{
 
 .text p{
     padding: 2em;
+    text-align: center;
     font-family: "Bitter", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: italic;
     font-size: 1.4rem;
-    text-align: center;
     line-height: 1.5;
+    letter-spacing: 2px;
 }
 
 .image4{
@@ -103,7 +105,7 @@ img{
     }
 }
 
-@media screen and (min-width: 881px) and (max-width: 1100px){
+@media screen and (min-width: 881px) and (max-width: 1115px){
     .container{
         grid-template-areas: 
         "image1 image1 image1 image2 image2 image2 image2"
